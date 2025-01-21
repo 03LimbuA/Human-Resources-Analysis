@@ -46,3 +46,7 @@ GROUP BY department
 - The net change in employees has increased from years 2000 – 2020 (by around 8%) –
 over the years, terminations of employees have generally decreased, whilst around 1000 hires have been made per year
 - the average tenure across all the departments (the length of time employees work for the department) seems to be around 8/9 years
+
+IT IS IMPORTANT TO NOTE THAT:
+- 967 records showed negative ages – we excluded these records in our analysis, we used ages above 18 in our SQL queries
+- The dataset included termdates with dates into the future (e.g., 2066) – we excluded these records in our analysis, ensuring that we used termdates less than or equal to the current date, in our SQL queries
