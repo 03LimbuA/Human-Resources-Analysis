@@ -5,7 +5,8 @@ The SQL queries for this project were written using MySQL Workbench. This projec
 
 ## The Analysis
 The full analysis can be found in this [file]
-The full list of queries used to aid the analysis can be found [here]
+
+The full list of queries used to aid the analysis can be found [here](https://github.com/03LimbuA/Human-Resources-Analysis/blob/main/HR%20SQL.sql)
 
 EXAMPLE OF QUERIES:
 ```sql    
