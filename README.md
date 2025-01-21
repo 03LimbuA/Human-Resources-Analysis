@@ -1,7 +1,7 @@
 # Human-Resources-Analysis
 This SQL data cleaning and analysis project, inspired by and following the tutorial of the Youtube Channel [Her Data Project](https://www.youtube.com/@herdataproject), looks at Human Resources data with over 22,000 rows (ranging from year 2000 - 2020). The dataset can be accessed [here](https://github.com/03LimbuA/Human-Resources-Analysis/blob/main/Human%20Resources2.csv).
 
-The SQL queries for this project were written using MySQL Workbench. This project also includes the creation of a  HR dashboard, created using Tableau, providing a visual overview of essential metrics, including employee turnover, recruitment statistics, development progress, and workforce demographics - enabling HR professionals to effectively observe employee information. 
+The SQL queries for this project were written using MySQL Workbench. This project also includes the creation of a  [HR dashboard](https://public.tableau.com/app/profile/a.l5815/viz/HRdataanalysisDASHBOARD/Dashboard1?publish=yes), created using Tableau, providing a visual overview of essential metrics, including employee turnover, recruitment statistics, development progress, and workforce demographics - enabling HR professionals to effectively observe employee information. 
 
 ## The Analysis
 The full analysis can be found in this [file](https://github.com/03LimbuA/Human-Resources-Analysis/blob/main/HR%20full%20analysis.pdf)
@@ -50,3 +50,9 @@ over the years, terminations of employees have generally decreased, whilst aroun
 IT IS IMPORTANT TO NOTE THAT:
 - 967 records showed negative ages – we excluded these records in our analysis, we used ages above 18 in our SQL queries
 - The dataset included termdates with dates into the future (e.g., 2066) – we excluded these records in our analysis, ensuring that we used termdates less than or equal to the current date, in our SQL queries
+
+# Visualising the data
+Using Tableau Public, I created a dashboard to display some of the findings from our anaysis. The dashboard can be accessed [here](https://public.tableau.com/app/profile/a.l5815/viz/HRdataanalysisDASHBOARD/Dashboard1?publish=yes).
+![Image 21-01-2025 at 21 35](https://github.com/user-attachments/assets/c4f5a96c-f0e2-40db-823d-d0ca040f3028)
+
+
