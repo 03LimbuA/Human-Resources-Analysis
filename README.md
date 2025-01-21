@@ -15,3 +15,18 @@ SELECT department, ROUND(AVG(DATEDIFF(CURDATE(), termdate)/365),0) as avg_tenure
 FROM hr
 WHERE termdate <= CURDATE() AND termdate <> '0000-00-00' AND age >= 18
 GROUP BY department
+```
+
+**Questions** 
+
+1. the gender breakdown of employees in the company
+2. the race/ethnicity breakdown of employees in the company
+3. the age distribution of employees in the company
+4. how many employees work at headquarters versus remote locations
+5. the average length of employment for employees who've been terminated
+6. the gender distribution variation across departments 
+7. the distribution of job titles across the company
+8. the department with the highest turnover rate
+9. the distribution of employees across locations by state
+10. how the company's employee count has changed over time based on hire and term dates
+11. the tenure distribution for each department
