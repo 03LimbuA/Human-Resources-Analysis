@@ -1,5 +1,5 @@
 # Human-Resources-Analysis
-This SQL data cleaning and analysis project, inspired by and following the tutorial of the Youtube Channel [Her Data Project](https://www.youtube.com/@herdataproject), looks at Human Resources data with over 22,000 rows (ranging from year 2000 - 2020). The dataset can be accessed [here](https://github.com/03LimbuA/Human-Resources-Analysis/blob/main/Human%20Resources2.csv).
+This SQL data cleaning and analysis project, inspired by the Youtube Channel [Her Data Project](https://www.youtube.com/@herdataproject), looks at Human Resources data with over 22,000 rows (ranging from year 2000 - 2020). The dataset can be accessed [here](https://github.com/03LimbuA/Human-Resources-Analysis/blob/main/Human%20Resources2.csv).
 
 The SQL queries for this project were written using MySQL Workbench. This project also includes the creation of a  [HR dashboard](https://public.tableau.com/app/profile/a.l5815/viz/HRdataanalysisDASHBOARD/Dashboard1?publish=yes), created using Tableau, providing a visual overview of essential metrics, including employee turnover, recruitment statistics, development progress, and workforce demographics - enabling HR professionals to effectively observe employee information. 
 
